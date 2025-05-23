@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PC Component Filtering</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PC COMPONENT</h1>
+
+  <div class="filter-buttons">
+    <button data-filter="ALL" class="active">ALL</button>
+    <button data-filter="CPU">CPU</button>
+    <button data-filter="MEMORY">MEMORY</button>
+    <button data-filter="MOTHERBOARD">MOTHERBOARD</button>
+    <button data-filter="OS">OS</button>
+    <button data-filter="INPUT DEVICES">INPUT DEVICES</button>
+    <button data-filter="OUTPUT DEVICES">OUTPUT DEVICES</button>
+    <button data-filter="SOFTWARE">SOFTWARE</button>
+    <button data-filter="OTHERS">OTHERS</button>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search item" />
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <div class="component-list" id="componentList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
